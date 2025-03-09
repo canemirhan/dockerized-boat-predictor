@@ -6,8 +6,8 @@ COPY requirements.txt ./requirements.txt
 
 RUN pip3 install -r requirements.txt
 
-EXPOSE 8501
+EXPOSE 8000
 
 COPY . /app
 
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8501"]
+CMD ["streamlit", "run", "app.py", "--server.port=8000"]
