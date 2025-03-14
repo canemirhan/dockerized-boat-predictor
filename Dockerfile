@@ -10,4 +10,4 @@ EXPOSE 8000
 
 COPY . /app
 
-CMD ["streamlit", "run", "app.py", "--server.address=0.0.0.0", "--server.port=8000"]
+CMD ["streamlit", "run", "app.py", "--server.port=8000"]
