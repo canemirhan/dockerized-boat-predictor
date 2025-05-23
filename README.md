@@ -40,7 +40,7 @@ The dataset `data.csv` used for this project was taken from kaggle. If you want 
 ## Usage
 You can start to use the app from your browser:
 
-    174.129.128.23:8000/
+    54.175.231.105:8000
 
 ### Screenshoots
 ![1.png](1.png)
